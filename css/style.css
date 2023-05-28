@@ -137,7 +137,7 @@ header {
 /* slider */
 
 .slider {
-    background-image:linear-gradient(to top, var(--overlay), var(--overlay)),url("./images/slider.jpg");
+    background-image:url("./images/slider.jpg");
     background-repeat: no-repeat;
     display: block;
     width: auto;
