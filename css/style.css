@@ -32,7 +32,7 @@ body {
     color: var(--background-one);
     line-height: 1.17;
     font-weight: 400;
-    max-width: 1600px;
+    
         
     
 }
@@ -137,19 +137,20 @@ header {
 /* slider */
 
 .slider {
-    background-image: linear-gradient(top, var(--overlay), var(--overlay)),url("/images/slider.jpg");
-    background-repeat: no-repeat;
+    background-image: linear-gradient(var(--overlay), var(--overlay)),
+                            url("../images/slider.jpg");
     background-color: rgba(47, 48, 58, 0.4);
-    display: block;
-    width: auto;
     height: 600px;
+    width: 1600px;
+    background-size: contain ;
     text-align: center;
-    margin-top: -30px;;
-    max-width: 1600px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-
-    
+    background-position: center;
+    margin: auto;         
 }
+
 
 h1 {
     color: #FFFFFF;
@@ -158,9 +159,10 @@ h1 {
     font-size: 44px;
     letter-spacing: 0.06em;
     line-height: 1.36;
-    padding-top: 200px ;
-    padding-left: 452px;
-    padding-right: 452px;
+    width: 696px;
+    margin: auto;
+    padding-bottom: 40px;
+    
 }
 
 
@@ -173,9 +175,8 @@ h1 {
         font-weight: 700;
         line-height: 1.9;
         width: 200px;
-        height: 50px;
-        
-    
+        height: 50px;  
+         
 }
 
 /* service offer */
